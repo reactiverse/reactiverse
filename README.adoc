@@ -1,3 +1,8 @@
-= reactiverse
+= The Reactiverse
 
-Main entry point
+A set of reactive components
+
+== Governance
+
+todo
+
