@@ -1,6 +1,12 @@
 = The Reactiverse
 
-A set of reactive components
+The place where people can host their reactive open source project.
+
+== Your project here
+
+- Maven groupID `io.reactiverse`
+- Java package prefix `io.reactiverse`
+- JPMS name TBD
 
 == Governance
 
