@@ -1,14 +1,21 @@
 = The Reactiverse
 
-The place where people can host their reactive open source project.
+The _reactiverse_ community at https://reactiverse.io/[https://reactiverse.io/] and https://github.com/reactiverse[https://github.com/reactiverse] is a collection of open source projects that gravitate around the _Eclipse Vert.x_ and _reactive (system, programming and stream)_ communities.
 
-== Your project here
-
-- Maven groupID `io.reactiverse`
-- Java package prefix `io.reactiverse`
-- JPMS name TBD
+We expect most projects to have a strong relationship with https://vertx.io/[Eclipse Vert.x], but we are open to other proposal from the _reactive_ ecosystem.
 
 == Governance
 
-todo
+Please check our link:Governance.adoc[governance document] to understand how we operate.
 
+== Can I propose a project?
+
+Most certainly *yes*!
+
+Please check our link:Governance.adoc[governance] for the next steps.
+
+== Who are we?
+
+We have a simple structure of link:Governance.adoc[contributors, maintainers and emeritus].
+
+We maintain a link:Maintainers.adoc[list of maintainers].
