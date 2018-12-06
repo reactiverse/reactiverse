@@ -139,6 +139,19 @@ Except when an initial contributor becomes a maintainer because a project propos
 
 The issue will be used for votes, but also for discussions.
 
+=== Administration of the GitHub organization and related assets
+
+The `reactiverse` organization on GitHub needs owners who can perform various administration duties, including transferring repositories, authorizing third-party services access, and more.
+This also includes the associated domain names.
+
+The `Maintainers` file lists who among the maintainers have such permissions.
+
+The usual voting process and rules apply for administration, including but not limited to:
+
+* obtaining administration permissions,
+* requesting a repository transfer,
+* allowing a third-party service access.
+
 === Revisions
 
 This governance document can be reviewed and revised by the _reactiverse_ maintainers from time to time.
