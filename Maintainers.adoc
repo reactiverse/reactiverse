@@ -10,8 +10,6 @@
 
 _Note: the 💫 symbol denotes maintainers with administration rights._
 
-== Maintainers with an administration permission
-
 == Emeritus
 
 _(none)_
