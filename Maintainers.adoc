@@ -1,0 +1,17 @@
+= Reactiverse Maintainers
+
+== Current maintainers
+
+* https://github.com/vietj[Julien Viet] 💫
+* https://github.com/pmlopes[Paulo Lopes] 💫
+* https://github.com/cescoffier[Clément Escoffier] 💫
+* https://github.com/FroMage[Stéphane Épardaud] 💫
+* https://github.com/jponge[Julien Ponge] 💫
+
+_Note: the 💫 symbol denotes maintainers with administration rights._
+
+== Maintainers with an administration permission
+
+== Emeritus
+
+_(none)_

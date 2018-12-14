@@ -1,0 +1,162 @@
+= Reactiverse Governance
+
+_Version 1.0_
+
+== Scope of the reactiverse
+
+The _reactiverse_ community at https://reactiverse.io/[https://reactiverse.io/] and https://github.com/reactiverse[https://github.com/reactiverse] is a collection of open source projects that gravitate around the _Eclipse Vert.x_ and _reactive (system, programming and stream)_ communities.
+We expect most projects to have a strong relationship with Eclipse Vert.x, but we are open to other proposal from the _reactive_ ecosystem.
+
+While independent from the https://vertx.io/[Eclipse Vert.x] project, the _reactiverse_ gathers useful quality projects that may serve the community of developers relying on Eclipse Vert.x.
+All _reactiverse_ projects share the Maven group identifier `io.reactiverse`.
+
+An important consideration is that _reactiverse_ projects need to stay up-to-date with Eclipse Vert.x releases.
+We expect projects to align with Eclipse Vert.x versions within a month of a new release.
+
+The _reactiverse_ is not a legal entity.
+
+The _reactiverse_ is a welcoming, inclusive and meritocratic community.
+There is a process for proposing new projects, and the _reactiverse_ community will discuss proposals in an open and constructive manner.
+
+The _reactiverse_ does not serve as an incubator for new modules to graduate to the Eclipse Vert.x project stack.
+Similarly, it does not serve as a _attic_ for modules when they are deprecated from the Eclipse Vert.x stack.
+That being said, mobility between Eclipse Vert.x and the _reactiverse_ may occasionally happen.
+
+== Roles
+
+The _reactiverse_ community governance recognizes the following roles.
+
+=== Initial contributors
+
+An _initial contributor_ is an individual that proposes a new project to the _reactiverse_.
+A project may be proposed by several initial contributors.
+
+Because the _reactiverse_ is not a legal entity, organisations that intend to propose projects to the _reactiverse_ need to identify qualified individuals and give them complete permissions to make proposals.
+
+=== Contributors
+
+A _contributor_ is someone who reports issues and/or offers contributions to a _reactiverse_ project.
+
+A contributor must abide to the https://developercertificate.org/[developer certificate of origin].
+
+A contributor does not have commit access to a _reactiverse_ project repository.
+
+=== Maintainers
+
+A _maintainer_ is a person who is responsible for managing a _reactiverse_ project.
+This includes, but is not limited to, ensuring that issue reports, contributions, and releases are being handled.
+A project can have several maintainers.
+
+Maintainers have commit and administrative permissions over their _reactiverse_ repositories.
+A maintainer of a _reactiverse_ project is not automatically a maintainer in another _reactiverse_ project.
+
+Maintainers have the permission to publish artifacts to Maven central and other public repositories under the `io.reactiverse` group identifier.
+
+An initial contributor automatically becomes a maintainer when a project proposal has been accepted.
+
+A contributor can be proposed to become a maintainer by existing maintainers, and a public vote among reactiverse-wide maintainers is being triggered.
+
+A maintainer may freely elect to step down as a maintainer of part or all projects.
+In this case a maintainer becomes _emeritus_, and the remaining maintainers elect new maintainers for the impacted projects if they happen to have no maintainer anymore.
+
+When a maintainer has not responded to sollicitations within 6 months, the other _reactiverse_ maintainers may trigger a vote to elect new maintainers on the maintainer projects.
+After 1 year without response to sollicitations and no public willingness to step down, a maintainer can be moved to an _emeritus_ status by any other _reactiverse_ maintainer, without a vote being necessary.
+
+== Projects
+
+=== Licensing
+
+Projects must be made available under one or a conjunction of the following open source licenses:
+
+* Apache Software License v2.0
+* Eclipse Public License v2.0
+* Mozilla Public License v2.0
+* MIT
+* BSD
+
+=== Operations
+
+Maintainers discuss incoming issues and contributions via GitHub issues and pull-requests.
+Maintainers have the right to decline a contribution, be it because it does not match the project scope or because it does not satisfy quality requirements.
+In any case constructive feedback will be given.
+
+We ask all code contributions to abide to the https://developercertificate.org/[developer certificate of origin].
+Git commits may optionally be signed-off.
+
+=== Releases
+
+Version numbers and schemes are at the discretion of each project maintainer(s).
+
+Maintainers can publish new versions whenever they want.
+
+When a new version of Eclipse Vert.x is being published, projects must ensure compliance within a month of the latest Eclipse Vert.x release.
+Projects may elect to support several Eclipse Vert.x versions and not just the latest.
+
+We understand that maintainer availability can fluctuate depending on personal and professional constraints, hence maintainers from other projects have the permission to commit and release new versions of a project when it fails to align with Eclipse Vert.x releases within a month.
+This is to ensure that all _reactiverse_ projects remain relevant.
+
+== Open decision process
+
+No part of the decision process must happen behind closed doors.
+
+All discussions will happen using GitHub issues at https://github.com/reactiverse/reactiverse[https://github.com/reactiverse/reactiverse] 
+
+=== Voting
+
+Votes happen on GitHub issues, and _reactiverse_ maintainers can vote in comments:
+
+* +1 means _“I fully agree”_
+* 0 means _“I won’t get in the way, but I am not in favour”_
+* -1 means _“I full disagree, here is a veto”_.
+
+Votes run for 72 hours.
+
+Votes require a 50% quorum from the reactiverse-maintainers.
+
+A _“-1”_ vote is a _veto_ that fails the vote.
+A veto must always be accompanied by a factual justification, or it is considered void.
+A veto can be retracted, in which case a new vote can be triggered.
+
+=== Project proposal
+
+Proposals must be sent as issues to https://github.com/reactiverse/reactiverse[https://github.com/reactiverse/reactiverse]. 
+While there is no formal template, we expect the following content:
+
+* Project name
+* Project goal
+* Licensing
+* Motivation to the join the _reactiverse_
+* Existing implementation
+
+By proposing projects, _initial contributors_ implicitly consent to this governance model.
+
+Each proposal will be evaluated by other _reactiverse_ maintainers, and all discussions happen on the proposal GitHub issue.
+At some point in time a _reactiverse_ maintainer triggers a vote to accept or reject the proposal.
+
+=== Votes on roles
+
+Except when an initial contributor becomes a maintainer because a project proposal has been accepted, all role updates that need a vote must have a corresponding issue at https://github.com/reactiverse/reactiverse[https://github.com/reactiverse/reactiverse].
+
+The issue will be used for votes, but also for discussions.
+
+=== Administration of the GitHub organization and related assets
+
+The `reactiverse` organization on GitHub needs owners who can perform various administration duties, including transferring repositories, authorizing third-party services access, and more.
+This also includes the associated domain names.
+
+The `Maintainers` file lists who among the maintainers have such permissions.
+
+The usual voting process and rules apply for administration, including but not limited to:
+
+* obtaining administration permissions,
+* requesting a repository transfer,
+* allowing a third-party service access.
+
+=== Revisions
+
+This governance document can be reviewed and revised by the _reactiverse_ maintainers from time to time.
+
+Evolutions can be proposed using GitHub issues and pull-requests on the governance document at https://github.com/reactiverse/reactiverse[https://github.com/reactiverse/reactiverse].
+Evolutions are being ratified through the voting rules above.
+Upon success, this governance document is being updated and the new version becomes the current one.
+
