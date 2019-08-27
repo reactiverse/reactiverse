@@ -7,6 +7,8 @@
 * https://github.com/cescoffier[Clément Escoffier] 💫
 * https://github.com/FroMage[Stéphane Épardaud] 💫
 * https://github.com/jponge[Julien Ponge] 💫
+* https://github.com/aesteve[Arnaud Esteve]
+* https://github.com/romalev[Roman Levytskyi]
 
 _Note: the 💫 symbol denotes maintainers with administration rights._
 
