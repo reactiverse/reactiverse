@@ -133,6 +133,15 @@ By proposing projects, _initial contributors_ implicitly consent to this governa
 Each proposal will be evaluated by other _reactiverse_ maintainers, and all discussions happen on the proposal GitHub issue.
 At some point in time a _reactiverse_ maintainer triggers a vote to accept or reject the proposal.
 
+=== Project termination
+
+A project may reach a state where no further releases should be made because it has become obsolete, or because there is no party interested in pursuing the development.
+
+A project can _terminate_ with an issue at https://github.com/reactiverse/reactiverse[https://github.com/reactiverse/reactiverse] with the motivation for termination.
+The issue will be used for votes.
+
+Upon termination a project is being https://help.github.com/en/articles/archiving-a-github-repository[archived] on GitHub.
+
 === Votes on roles
 
 Except when an initial contributor becomes a maintainer because a project proposal has been accepted, all role updates that need a vote must have a corresponding issue at https://github.com/reactiverse/reactiverse[https://github.com/reactiverse/reactiverse].
