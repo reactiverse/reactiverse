@@ -140,6 +140,9 @@ A project may reach a state where no further releases should be made because it 
 A project can _terminate_ with an issue at https://github.com/reactiverse/reactiverse[https://github.com/reactiverse/reactiverse] with the motivation for termination.
 The issue will be used for votes.
 
+Voting can start immediately, but a 2 weeks period is granted so that potential maintainers can be found.
+If the vote passes and no new maintainers have been found, then the project is declared _terminated_.
+
 Upon termination a project is being https://help.github.com/en/articles/archiving-a-github-repository[archived] on GitHub.
 
 === Votes on roles
