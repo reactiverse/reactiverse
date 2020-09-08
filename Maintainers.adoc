@@ -9,6 +9,7 @@
 * https://github.com/jponge[Julien Ponge] 💫
 * https://github.com/aesteve[Arnaud Esteve]
 * https://github.com/romalev[Roman Levytskyi]
+* https://github.com/slinkydeveloper[Francesco Guardiani]
 
 _Note: the 💫 symbol denotes maintainers with administration rights._
 
