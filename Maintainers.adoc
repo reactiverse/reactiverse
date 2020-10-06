@@ -7,6 +7,7 @@
 * https://github.com/cescoffier[Clément Escoffier] 💫
 * https://github.com/FroMage[Stéphane Épardaud] 💫
 * https://github.com/jponge[Julien Ponge] 💫
+* https://github.com/tsegismont[Thomas Segismont] 💫
 * https://github.com/aesteve[Arnaud Esteve]
 * https://github.com/romalev[Roman Levytskyi]
 * https://github.com/slinkydeveloper[Francesco Guardiani]
